@@ -1,0 +1,24 @@
+{
+  "name": "PiCellar",
+  "version": "1.0.0",
+  "description": "Use a Raspberry Pi, a button, a RasClock and an AM2303 temp/humidity sensor to output your metrics to a small screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nbaudet/PiCellar.git"
+  },
+  "author": "Nicolas Baudet <nico.baudet@gmail.com> (http://baudet.me)",
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/nbaudet/PiCellar/issues"
+  },
+  "homepage": "https://github.com/nbaudet/PiCellar",
+  "dependencies": {
+    "blessed": "^0.1.61",
+    "blessed-contrib": "^2.2.0",
+    "node-dht-sensor": "0.0.8"
+  }
+}
